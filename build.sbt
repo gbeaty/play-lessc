@@ -10,4 +10,4 @@ resolvers += "Typesafe Repository" at "http://repo.typesafe.com/typesafe/release
 
 addSbtPlugin("play" % "sbt-plugin" % "2.1.2")
 
-publishTo := Some(Resolver.file("file", new File( "/tmp/play-lessc" )))
+publishTo := Some(Resolver.file("file", new File( "maven/" )))
